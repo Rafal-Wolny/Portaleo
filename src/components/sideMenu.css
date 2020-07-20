@@ -1,0 +1,39 @@
+.side-drawer {
+  height: 100%;
+  background: white;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 400px;
+  width: 70%;
+  z-index: 100000;
+  font-family: Open-sans;
+  font-size: 1.2rem;
+}
+
+.side-drawer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.side-drawer li {
+  margin: 0.5rem 0;
+}
+
+.side-drawer li:nth-last-child(1) {
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.side-drawer a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.side-drawer a:active {
+  color: orange;
+}

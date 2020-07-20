@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #08596e;
+  min-height: 100vh;
+}
+
+.search-box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 95vw;
+  min-height: 100vh;
+  margin-top: 56px;
+}
+
+.container-post {
+  width: 90vw;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 10px;
+  background-color: #dce5e8;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.container-post a {
+  text-decoration: none;
+}
+
+.image img {
+  width: 150px;
+  height: 150px;
+  margin-top: 5px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px #628ea6 solid;
+  border-radius: 10px 10px 0 0;
+}
+
+.details-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-box-input {
+  margin: 15px;
+}
+
+.price {
+  color: #8c222f;
+  font-size: 2em;
+  margin-right: 5px;
+}
+
+.title {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.05rem;
+  margin-left: 8px;
+}
+
+.brand {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.invitation-head {
+  margin-top: 24px;
+  font-size: 2.5rem;
+  font-style: italic;
+  color: #ccc;
+  padding: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.invitation-head-2 {
+  color: #ccc;
+  font-size: 1.4rem;
+  padding: 3px;
+}
+
+.sort-manager {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: #dce5e8;
+}
+
+@media (min-width: 1200px) {
+  .content {
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 1080px;
+  }
+
+  .sort-manager {
+    /* margin-left: auto;
+    margin-right: auto; */
+    max-width: 600px;
+  }
+
+  .container-post {
+    /* margin-left: auto;
+    margin-right: auto; */
+    max-width: 500px;
+  }
+
+  .search-box {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 520px;
+  }
+
+  .App {
+    background-image: url("../assets/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,28 @@
+.flex-container-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+  padding: 16px;
+  height: 100vh;
+  background-color: #08596e;
+}
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 18px;
+  padding: 45px;
+  height: 445px;
+  background-color: #dce5e8;
+}
+
+@media (min-width: 1200px) {
+  .container-login {
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 1080px;
+  }
+}

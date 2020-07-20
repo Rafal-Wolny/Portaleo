@@ -1,0 +1,28 @@
+.flex-container-register {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #08596e;
+  min-height: 100vh;
+}
+
+.container-register {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 18px;
+  height: 500px;
+  padding: 50px;
+  margin-top: 30px;
+  background-color: #dce5e8;
+}
+
+@media (min-width: 1200px) {
+  .container-register {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 550px;
+  }
+}

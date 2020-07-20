@@ -1,0 +1,42 @@
+.user-posts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  /* margin-top: 56px; */
+  min-height: 100vh;
+  background-color: #08596e;
+}
+
+.user-posts ul {
+  padding: 10px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.user-posts li {
+  list-style: none;
+  border: 2px solid black;
+  background-color: #dce5e8;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.user-posts button {
+  margin: 6px;
+  font-size: 1rem;
+}
+
+.user-posts h1 {
+  font-size: 1.5rem;
+  margin-top: 56px;
+}
+
+@media (min-width: 700px) {
+  .user-posts {
+    margin-left: 35%;
+    margin-right: 25%;
+    max-width: 450px;
+  }
+}

@@ -1,0 +1,28 @@
+.uploaded-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.flex-container-addpost {
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+  text-align: center;
+  justify-content: center;
+  /* background-color: #dce5e8; */
+  background-color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+@media (min-width: 1200px) {
+  .flex-container-addpost {
+    margin-left: 38%;
+    margin-right: 25%;
+    max-width: 630px;
+  }
+}
