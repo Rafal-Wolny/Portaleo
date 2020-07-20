@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portaleo/static/css/main.413b2518.chunk.css",
+    "main.js": "/Portaleo/static/js/main.cd4e7cb6.chunk.js",
+    "main.js.map": "/Portaleo/static/js/main.cd4e7cb6.chunk.js.map",
+    "runtime-main.js": "/Portaleo/static/js/runtime-main.43c1b384.js",
+    "runtime-main.js.map": "/Portaleo/static/js/runtime-main.43c1b384.js.map",
+    "static/css/2.6b00acf2.chunk.css": "/Portaleo/static/css/2.6b00acf2.chunk.css",
+    "static/js/2.4176c926.chunk.js": "/Portaleo/static/js/2.4176c926.chunk.js",
+    "static/js/2.4176c926.chunk.js.map": "/Portaleo/static/js/2.4176c926.chunk.js.map",
+    "index.html": "/Portaleo/index.html",
+    "precache-manifest.a8bcf52a61021da0c7d4a5338eba8cb9.js": "/Portaleo/precache-manifest.a8bcf52a61021da0c7d4a5338eba8cb9.js",
+    "service-worker.js": "/Portaleo/service-worker.js",
+    "static/css/2.6b00acf2.chunk.css.map": "/Portaleo/static/css/2.6b00acf2.chunk.css.map",
+    "static/css/main.413b2518.chunk.css.map": "/Portaleo/static/css/main.413b2518.chunk.css.map",
+    "static/media/content.css": "/Portaleo/static/media/background.807e2b89.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43c1b384.js",
+    "static/css/2.6b00acf2.chunk.css",
+    "static/js/2.4176c926.chunk.js",
+    "static/css/main.413b2518.chunk.css",
+    "static/js/main.cd4e7cb6.chunk.js"
+  ]
+}
